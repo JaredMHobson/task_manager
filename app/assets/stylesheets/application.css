@@ -34,5 +34,46 @@ h3 {
 }
 
 a {
-  color: #92AD94;
+  color: #5296A5;
+}
+
+button {
+  padding: 20px;
+  color: red;
+}
+
+input[type=submit] {
+  background-color: #7D6B91;
+  color: white;
+}
+
+nav {
+  width: fit-content;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #A53F2B;
 }

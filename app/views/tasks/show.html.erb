@@ -1,11 +1,13 @@
-<a href="/tasks">Task Index</a>
-
 <h1><%= @task.title %></h1>
+
+<nav>
+<ul>
+<li><a href="/">Home</a></li>
+<li><a href="/tasks">Task Index</a></li>
+<li><a href="/tasks/new">New Task</a></li>
+</ul>
+</nav>
 
 <p><%= @task.description %></p>
 
 <a href="/tasks/<%= @task.id %>/edit">Edit</a>
-
-<footer>
-  <a href="/">Return home</a>
-</footer>
